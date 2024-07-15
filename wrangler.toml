@@ -1,0 +1,15 @@
+name = "stripeo"
+pages_build_output_dir = "build/client"
+compatibility_date = "2024-06-02"
+
+#KV
+
+
+#Vars
+[vars]
+ENVIRONMENT="local"
+SESSION_SECRET = "seCret"
+
+[env.production.vars]
+ENVIRONMENT="production"
+SESSION_SECRET = "seCret"

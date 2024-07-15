@@ -16,9 +16,12 @@
     "@remix-run/cloudflare": "^2.10.2",
     "@remix-run/cloudflare-pages": "^2.10.2",
     "@remix-run/react": "^2.10.2",
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "stripe": "^16.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240512.0",
@@ -38,6 +41,7 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
+    "vite-plugin-ngrok": "^1.0.0",
     "vite-tsconfig-paths": "^4.2.1",
     "wrangler": "3.57.1"
   },
